@@ -1,0 +1,34 @@
+.header{
+    /* height: 40px; */
+    background-color:#3B2E8C;
+    color: white;
+    padding: 15px;
+}
+.body{
+    min-height: 100vh;
+    /* background-color: #5F45BF; */
+    padding: 10px;
+    color: white;
+}
+.txtHeader{
+    font-size: 22px;
+    font-weight: bold;
+    font-family: serif;
+}
+.rowHeader{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.rowItemMenu{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.itemMenu{
+    padding: 5px 12px;
+    cursor: pointer;
+}
+.itemMenu:hover{
+    border-bottom: 2px solid black;
+}
